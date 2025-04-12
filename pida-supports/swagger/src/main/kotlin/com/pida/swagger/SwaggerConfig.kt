@@ -42,11 +42,11 @@ internal class SwaggerConfig(
     private fun swaggerInfo(): Info {
         val license =
             License()
-                .url("https://github.com/Team-PIDA/Pida-Server")
-                .name("Pida API Server")
+                .url("https://github.com/Team-PIDA/Pida-Admin-Server")
+                .name("Pida Admin API Server")
         return Info()
-            .title("\uD83C\uDF6D Pida API Server")
-            .description("Pida API 문서입니다.")
+            .title("\uD83C\uDF6D Pida Admin API Server")
+            .description("Pida Admin API 문서입니다.")
             .version("v0.0.1")
             .license(license)
     }
