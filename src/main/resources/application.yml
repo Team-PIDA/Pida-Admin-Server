@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: pida-admin
+
+server:
+  port: 9090
