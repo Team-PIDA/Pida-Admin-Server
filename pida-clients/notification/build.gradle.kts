@@ -4,5 +4,4 @@ dependencies {
     implementation(libs.firebase)
 
     implementation(project(":pida-admin:domain"))
-
 }
