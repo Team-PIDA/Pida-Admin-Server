@@ -9,7 +9,7 @@ spring:
     import:
 #      - db-core.yml
       - redis.yml
-#      - logging.yml
+      - logging.yml
       - authentication.yml
       - rsa.yml
 #      - notification.yml
@@ -26,7 +26,7 @@ server:
     encoding:
       charset: UTF-8
       force: true
-
+  port: 9090
 
 ---
 spring:

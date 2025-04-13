@@ -32,6 +32,7 @@ include(
 
 include(
     "pida-supports:logging",
+    "pida-supports:monitoring",
     "pida-supports:swagger",
 )
 
